@@ -38,7 +38,10 @@ Task 1/
 1. **Download or clone** this repository.
 
    ```bash
-   git clone https://github.com/mohamed-hossam1/A2SV-Task-1.git
+   git clone https://github.com/mohamed-hossam1/A2SV-Task-2.git
+   cd A2SV-Task-2
+   npm i
+   open index.html
    ```
 
 2. **Double-click** on `index.html`
