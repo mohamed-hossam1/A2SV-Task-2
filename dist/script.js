@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 let todoCounter = 0;
 function getById(id) {
     const el = document.getElementById(id);
