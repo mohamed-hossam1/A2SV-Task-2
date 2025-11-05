@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background: #1f1e1e;
+  color: white;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  max-width: 700px;
+}
+
+.todo-list{
+  width: 100%;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.item{
+  margin: 20px;
+  display: grid;
+  grid-template-columns:5fr 1fr;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.fa-pen-to-square{
+  color: rgb(57, 57, 248);
+  transition: all 200ms;
+}
+
+.fa-pen-to-square:hover{
+  color: rgb(37, 37, 246);
+}
+
+
+.fa-trash{
+  color: rgb(247, 78, 78);
+  transition: all 200ms;
+}
+
+.fa-trash:hover{
+  color: rgb(243, 30, 30);
+}
+
+h2{
+  font-size: 28px;
+  margin-right: 90px;
+}
+
+.submit-box{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input{
+  margin: 15px 0px;
+  padding: 9px;
+  font-size: 18px;
+  width: 75%;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+
+button{
+  color: white;
+  margin: 15px 0px;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  background: #5324d4;
+  transition: all 200ms;
+  border-radius: 10px;
+}
+
+
+button:hover{
+  color: white;
+  background: #4119b1;
+  cursor: pointer;
+  
+}
